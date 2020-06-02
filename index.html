@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Playball&display=swap" rel="stylesheet">
+
+
+    
+ <!-- font-awesome -->
+ <script src="https://kit.fontawesome.com/12eb01407c.js" crossorigin="anonymous"></Script>
+
+</head>
+<body>
+
+<div class="celebration">
+  <div style="width:100%;height:0;padding-bottom:68%;position:relative;" id="celeb1"><img src="https://media.giphy.com/media/26BRABnerqonwLHMc/giphy.gif" alt=""></div>
+
+</div>
+
+
+    <div class="top container-fluid shadow p-3 rounded">
+
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-2">
+                <img class="float1" src="images/knowledge.png" alt="">
+              </div>
+              <div class="col-8">
+                <h1>Test Your Memory Skills!</h1>
+                <h5>Let's see <br> how many levels you CLEAR!</h5>
+              </div>
+              <div class="col-2">
+                <img class="float1" src="images/prioritize.png" alt="">
+              </div>
+            </div>
+          </div>
+    </div>
+
+<div class="instruct container-fluid shadow">
+  <h5 class ="bar btn btn-info" type="button">HOW TO PLAY? Click here for instuctions <i class="fas fa-angle-double-down"></i></h5>
+
+  <div class="container" id="instructText">
+    <ul class="list-group list-group-flush">
+
+      
+
+      <li class="list-group-item list-group-item-dark">One of the four squares you see will flash.. eg <span style="color:red;"> red</span> color flashes</li>
+      <li class="list-group-item list-group-item-dark">Then you need to click on <span style="color:red;">red</span> color..</li>
+      <li class="list-group-item list-group-item-dark">After that you level up another color will flash.. eg <span style="color:blue;">blue</span> color flashes</li>
+      <li class="list-group-item list-group-item-dark">Then you need to click first <span style="color:red;">red</span> and then <span style="color:blue;">blue</span> and this continues. Next <span style="color:green;">green</span> flashes then click <span style="color:red;">red</span>-<span style="color:blue;">blue</span>-<span style="color:green;">green</span></li>
+      <li class="list-group-item list-group-item-dark">If you click on the wrong color you lose.. Enjoy the GAME</li>
+      <li class="list-group-item list-group-item-warning slideUp"> <img src="images/upArrow.png" type="button" class="arrow" alt=""></li>
+    </ul>
+
+  </div>
+  
+</div>
+<h1 id="level-title">Click Start Button to begin
+  <button id="start" class="btn btn-primary btn-lg">Start</button>
+</h1>
+<span class="lup">LEVEL UP </span>
+<div class="container" >
+  <div class="row" id="actual">
+
+    <div type="button" id="green" class="but green">
+      <span class="texture texture-green">I got Flashed</span>
+    </div>
+
+    <div type="button" id="red" class="but red">
+      <span class="texture texture-red">I got Flashed</span>
+    </div>
+  </div>
+
+  <div class="row" id="actual">
+
+    <div type="button" id="yellow" class="but yellow">
+      <span class="texture texture-yellow">I got Flashed</span>
+    </div>
+    <div type="button" id="blue" class="but blue">
+      <span class="texture texture-blue">I got Flashed</span>
+    </div>
+
+  </div>
+<div class="container restart" >
+  <button id="restart" class="btn btn-success btn-lg btn-block">Click to Restart</button>
+</div>
+</div>
+
+    <div class="bot container-fluid">
+      <footer>Made for joy by Satyam</footer>
+
+    </div>
+
+    <!-- <div style="width:100%;height:0;padding-bottom:68%;position:relative;"><img src="https://media.giphy.com/media/xULW8FacXhXGJIcv7i/giphy.gif" alt=""></div>
+    <div style="width:100%;height:0;padding-bottom:68%;position:relative;"><img src="https://media.giphy.com/media/26BRABnerqonwLHMc/giphy.gif" alt=""></div>
+     -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+
+</body>
+</html>
+
+
+
+<!-- be79df -->
+<!-- <div>Icons made by <a href="https://www.flaticon.com/free-icon/knowledge_2883873" title="iconixar">iconixar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->

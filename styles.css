@@ -1,0 +1,148 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding:10px 10px 10px;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.top h5 {
+    text-align: center;
+    padding:0 10px 10px 5px;
+    font-family: 'Playball', cursive;
+}
+
+.float1{
+    
+    height: 125px;
+    width: 125px;
+}
+
+.top {
+    background-color: #cff1ef;
+    margin-bottom: 0;
+}
+
+.instruct {
+    margin-top: 0;
+    background-color: #f40552;
+    padding: 2px 2px;
+    text-align: center;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: monospace;
+    
+}
+
+/* .mid {
+    background-color: #ffffff;
+} */
+
+.bot {
+    background-color: #fbcffc;
+}
+
+.fas {
+    padding-top: 1px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.list-group-item {
+    text-align: left;
+   
+    font-size: 1.2rem;
+    font-family: Helvetica;
+}
+
+
+.green{
+    background-color:green;
+}
+  
+.red{
+    background-color: red;
+}
+  
+.yellow{
+    background-color: yellow;
+}
+  
+.blue {
+    background-color: blue;
+}
+  
+
+
+.but {
+    margin: 15px;
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  #actual{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+
+  .restart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+  .celebration{
+      position: absolute;
+      z-index: 1;
+      top:20rem;
+      right: 60rem;
+
+  }
+
+.lup{
+   font-size: 100px;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.bot{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.texture{
+    font-size: xx-large;
+    color:#000;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slideUp{
+    text-align: center;
+}
+.arrow{
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
